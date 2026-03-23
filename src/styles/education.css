@@ -1,0 +1,136 @@
+/* --- Education Section --- */
+.education {
+  position: relative;
+  overflow: hidden;
+}
+
+.education-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.education-timeline::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent-primary), var(--accent-secondary), transparent);
+}
+
+.education-item {
+  position: relative;
+  padding-left: 70px;
+  margin-bottom: var(--space-2xl);
+}
+
+.education-dot {
+  position: absolute;
+  left: 16px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.4);
+}
+
+.education-dot::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+}
+
+.education-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  transition: all var(--transition-base);
+}
+
+.education-card:hover {
+  background: var(--bg-card-hover);
+  border-color: rgba(99, 102, 241, 0.3);
+  box-shadow: var(--shadow-glow);
+  transform: translateX(4px);
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-sm);
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.education-degree {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+}
+
+.education-date {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+}
+
+.education-school {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.education-score {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-xs) var(--space-md);
+  background: rgba(99, 102, 241, 0.1);
+  border: 1px solid rgba(99, 102, 241, 0.2);
+  border-radius: var(--radius-full);
+}
+
+.education-score-label {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+}
+
+.education-score-value {
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  background: var(--accent-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 768px) {
+  .education-header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-timeline::before {
+    left: 14px;
+  }
+
+  .education-item {
+    padding-left: 50px;
+  }
+
+  .education-dot {
+    left: 8px;
+    width: 14px;
+    height: 14px;
+  }
+}
