@@ -3,7 +3,7 @@ import {
   FaJava, FaReact, FaAngular, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaGithub, FaMicrosoft
 } from 'react-icons/fa';
 import {
-  SiTypescript, SiSpringboot, SiDotnet, SiCsharp, SiMysql, SiAzuredevops
+  SiTypescript, SiSpringboot, SiDotnet, SiSharp, SiMysql
 } from 'react-icons/si';
 import '../styles/skills.css';
 
@@ -14,7 +14,7 @@ const skillCategories = [
     skills: [
       { name: 'Java', icon: <FaJava /> },
       { name: 'SQL', icon: <FaDatabase /> },
-      { name: 'C# (Basic)', icon: <SiCsharp /> },
+      { name: 'C# (Basic)', icon: <SiSharp /> },
       { name: 'JavaScript', icon: <FaJs /> },
       { name: 'TypeScript', icon: <SiTypescript /> },
     ]
@@ -55,7 +55,7 @@ const skillCategories = [
     skills: [
       { name: 'Azure App Service', icon: <FaMicrosoft /> },
       { name: 'Blob Storage', icon: <FaCloud /> },
-      { name: 'Azure Functions', icon: <SiAzuredevops /> },
+      { name: 'Azure Functions', icon: <FaMicrosoft /> },
       { name: 'CI/CD (GitHub Actions)', icon: <FaGithub /> },
     ]
   },
