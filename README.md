@@ -1,16 +1,147 @@
-# React + Vite
+# Ashish Tikhile — Software Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Vite, showcasing my skills, experience, projects, and achievements as a software engineer.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [portfolio-rho-one-t4893v6t8i.vercel.app](https://portfolio-rho-one-t4893v6t8i.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Responsive Design** — Looks great on desktop, tablet, and mobile
+- **Smooth Scroll Animations** — Intersection Observer powered reveal effects
+- **Interactive UI** — Hover effects, gradient accents, and micro-animations
+- **Dark Theme** — Sleek, modern dark aesthetic
+- **Modular Architecture** — Clean, component-based React structure
+- **Fast Performance** — Powered by Vite for lightning-fast builds
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| **React 19** | UI Components |
+| **Vite 8** | Build Tool & Dev Server |
+| **Vanilla CSS** | Styling & Animations |
+| **React Icons** | Icon Library |
+| **Vercel** | Deployment & Hosting |
+
+---
+
+## 📂 Project Structure
+
+```
+portfolio/
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── About.jsx
+│   │   ├── Education.jsx
+│   │   ├── Experience.jsx
+│   │   ├── Skills.jsx
+│   │   ├── Projects.jsx
+│   │   ├── Achievements.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   ├── styles/
+│   │   ├── navbar.css
+│   │   ├── hero.css
+│   │   ├── about.css
+│   │   ├── education.css
+│   │   ├── experience.css
+│   │   ├── skills.css
+│   │   ├── projects.css
+│   │   ├── achievements.css
+│   │   ├── contact.css
+│   │   └── footer.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── vite.config.js
+├── package.json
+└── eslint.config.js
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- npm (comes with Node.js)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/ashishtikhile1234/portfolio.git
+
+# Navigate to the project
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The site will be running at `http://localhost:5173`
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The optimized build will be output to the `dist/` directory.
+
+---
+
+## 📸 Sections
+
+| Section | Description |
+|---|---|
+| **Hero** | Introduction with animated text and social links |
+| **About** | Brief overview and background |
+| **Education** | Academic qualifications |
+| **Experience** | Work experience and internships |
+| **Skills** | Technical skills and proficiencies |
+| **Projects** | Highlighted projects with descriptions and links |
+| **Achievements** | Awards and accomplishments |
+| **Contact** | Contact form and social links |
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel** with automatic deployments on every push to the `main` branch.
+
+```bash
+# Push changes to trigger auto-deploy
+git add -A
+git commit -m "your commit message"
+git push origin main
+```
+
+---
+
+## 📬 Contact
+
+- **GitHub:** [ashishtikhile1234](https://github.com/ashishtikhile1234)
+- **Portfolio:** [portfolio-rho-one-t4893v6t8i.vercel.app](https://portfolio-rho-one-t4893v6t8i.vercel.app)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
