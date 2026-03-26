@@ -60,7 +60,7 @@ function Hero() {
           </a>
         </div>
         <div className="hero-socials">
-          <a href="https://linkedin.com/in/ashishtikhile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/mostly-ashish/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedinIn />
           </a>
           <a href="https://github.com/ashishtikhile1234" target="_blank" rel="noopener noreferrer" aria-label="GitHub">

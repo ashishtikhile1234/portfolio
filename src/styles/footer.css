@@ -1,8 +1,20 @@
 /* --- Footer --- */
 .footer {
-  padding: var(--space-2xl) var(--space-xl);
+  padding: var(--space-3xl) var(--space-xl);
   border-top: 1px solid var(--border-glass);
-  background: rgba(10, 10, 26, 0.8);
+  background: linear-gradient(to bottom, transparent, rgba(10, 10, 26, 0.95));
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 1px;
+  background: var(--accent-gradient);
 }
 
 .footer .container {
@@ -21,20 +33,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: var(--radius-full);
   border: 1px solid var(--border-glass);
   color: var(--text-secondary);
   font-size: var(--fs-lg);
   transition: all var(--transition-base);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .footer-socials a:hover {
-  color: var(--accent-tertiary);
+  color: white;
   border-color: var(--accent-primary);
+  background: rgba(99, 102, 241, 0.12);
   transform: translateY(-3px);
-  box-shadow: var(--shadow-glow);
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.25);
 }
 
 .footer-text {
@@ -54,4 +68,7 @@
 .footer-built {
   font-size: var(--fs-xs);
   color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }

@@ -66,11 +66,11 @@ function Contact() {
               </div>
             </a>
 
-            <a href="https://linkedin.com/in/ashishtikhile" target="_blank" rel="noopener noreferrer" className="contact-item">
+            <a href="https://www.linkedin.com/in/mostly-ashish/" target="_blank" rel="noopener noreferrer" className="contact-item">
               <div className="contact-item-icon"><FaLinkedinIn /></div>
               <div>
                 <div className="contact-item-label">LinkedIn</div>
-                <div className="contact-item-value">linkedin.com/in/ashishtikhile</div>
+                <div className="contact-item-value">linkedin.com/in/mostly-ashish</div>
               </div>
             </a>
 

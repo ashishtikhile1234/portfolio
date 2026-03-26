@@ -42,10 +42,10 @@ function App() {
       <main>
         <Hero />
         <About />
-        <Skills />
-        <Experience />
-        <Projects />
         <Education />
+        <Experience />
+        <Skills />
+        <Projects />
         <Achievements />
         <Contact />
       </main>
