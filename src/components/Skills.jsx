@@ -1,9 +1,9 @@
 import {
   FaCode, FaServer, FaDatabase, FaCloud, FaTools,
-  FaJava, FaReact, FaAngular, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaGithub, FaMicrosoft
+  FaJava, FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaGithub, FaMicrosoft
 } from 'react-icons/fa';
 import {
-  SiTypescript, SiSpringboot, SiDotnet, SiSharp, SiMysql
+  SiTypescript, SiSpringboot, SiMysql
 } from 'react-icons/si';
 import '../styles/skills.css';
 
@@ -12,9 +12,8 @@ const skillCategories = [
     title: 'Programming Languages',
     icon: <FaCode />,
     skills: [
-      { name: 'Java', icon: <FaJava /> },
+      { name: 'Core Java', icon: <FaJava /> },
       { name: 'SQL', icon: <FaDatabase /> },
-      { name: 'C# (Basic)', icon: <SiSharp /> },
       { name: 'JavaScript', icon: <FaJs /> },
       { name: 'TypeScript', icon: <SiTypescript /> },
     ]
@@ -24,7 +23,6 @@ const skillCategories = [
     icon: <FaReact />,
     skills: [
       { name: 'React', icon: <FaReact /> },
-      { name: 'Angular (Basic)', icon: <FaAngular /> },
       { name: 'HTML5', icon: <FaHtml5 /> },
       { name: 'CSS3', icon: <FaCss3Alt /> },
       { name: 'JavaScript', icon: <FaJs /> },
@@ -37,7 +35,6 @@ const skillCategories = [
     skills: [
       { name: 'Spring Boot', icon: <SiSpringboot /> },
       { name: 'REST APIs', icon: <FaServer /> },
-      { name: '.NET Core (Basic)', icon: <SiDotnet /> },
     ]
   },
   {

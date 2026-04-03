@@ -7,24 +7,24 @@ const projects = [
     badge: 'Team Project',
     description: 'A secure document management platform for file upload, search, and download with cloud-powered processing and scalability.',
     highlights: [
-      'Built with Angular, .NET Core, and C# for full-stack functionality',
+      'Built with React, Spring Boot, and Core Java for full-stack functionality',
       'Integrated Azure Blob Storage, Functions, and Event Grid for processing',
       'Handled Azure deployment and cloud integration in a team of 4',
       'Implemented authentication and CI/CD using GitHub Actions',
     ],
-    tags: ['Angular', '.NET Core', 'C#', 'Azure', 'Cosmos DB', 'CI/CD'],
+    tags: ['React', 'Spring Boot', 'Core Java', 'Azure', 'Cosmos DB', 'CI/CD'],
   },
   {
     title: 'Weekly Manager',
     badge: null,
     description: 'A full-stack task management application for creating, tracking, and scheduling tasks with automated deployment.',
     highlights: [
-      'Developed using Angular, .NET Core, and C# for end-to-end functionality',
+      'Developed using React, Spring Boot, and Core Java for end-to-end functionality',
       'Used Azure SQL for data storage and deployed on Azure App Service',
       'Implemented CI/CD pipeline for automated deployment',
       'Built task creation, tracking, and scheduling features',
     ],
-    tags: ['Angular', '.NET Core', 'C#', 'Azure', 'Azure SQL', 'CI/CD'],
+    tags: ['React', 'Spring Boot', 'Core Java', 'Azure', 'Azure SQL', 'CI/CD'],
   },
   {
     title: 'RFID Student Management',

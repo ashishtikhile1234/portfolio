@@ -24,7 +24,7 @@ function About() {
               I'm Ashish Vilas Tikhile, a motivated IT graduate from Prof. Ram Meghe Institute of 
               Technology & Research, Badnera–Amravati. I have hands-on experience in full-stack 
               and cloud-based application development, having worked with technologies like 
-              React, Angular, .NET Core, Spring Boot, and Microsoft Azure.
+              React, Core Java, Spring Boot, and Microsoft Azure.
             </p>
             <p>
               At Thinkbridge, I completed intensive training and worked on real-world projects 

@@ -7,13 +7,13 @@ const experiences = [
     date: '09/2025 – 03/2026',
     location: 'Pune, Maharashtra',
     points: [
-      'Completed intensive training on .NET Core, C#, Angular, TypeScript, SQL, Azure',
+      'Completed intensive training on Core Java, Spring Boot, React, TypeScript, SQL, Azure',
       'Worked on real-world projects using Azure Cloud services and microservice architecture',
       'Gained hands-on experience in API development, authentication, cloud deployment, and CI/CD',
       'Followed industry practices like Git workflow, Pull Requests, and code reviews',
       'Built and deployed scalable applications using Azure App Services and Functions',
     ],
-    tags: ['.NET Core', 'C#', 'Angular', 'TypeScript', 'SQL', 'Azure', 'CI/CD', 'REST APIs'],
+    tags: ['Core Java', 'Spring Boot', 'React', 'TypeScript', 'SQL', 'Azure', 'CI/CD', 'REST APIs'],
   },
 ];
 
